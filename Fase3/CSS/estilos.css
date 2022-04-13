@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #54BAB9;
+    padding: 20px;
+    color: black;
+
+}
+nav{
+    
+    background-color: #FBF8F1;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
+    
+}
+article{
+    background-color: #E9DAC1;
+    grid-column:1/4 ;
+}
+aside{
+    background-color: blanchedalmond;
+    padding: 30px;
+    grid-column:4/5 ;
+}    
+footer{
+    background-color: #54BAB9;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+    
+
